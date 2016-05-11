@@ -70,6 +70,14 @@ void EDU101::set4(uint8_t a,uint8_t b,uint8_t c,uint8_t d) {
   Wire.endTransmission();
 }
 
+void EDU101::set(uint8_t a,uint8_t pos) {
+  Wire.beginTransmission(DISPLAY_CTRL_ID);
+  Wire.write(pos);
+  Wire.write(a);
+  Wire.endTransmission();
+}
+
+
 void EDU101::num4(uint8_t a,uint8_t b,uint8_t c,uint8_t d) {
   Wire.beginTransmission(DISPLAY_CTRL_ID);
   Wire.write((uint8_t)0x00);
@@ -88,6 +96,14 @@ void EDU101::num4(uint8_t a,uint8_t b,uint8_t c,uint8_t d) {
   Wire.write(NUMBER_FONT[d]);
   Wire.endTransmission();
 }
+
+void EDU101::num(uint8_t a,uint8_t pos) {
+  Wire.beginTransmission(DISPLAY_CTRL_ID);
+  Wire.write(pos);
+  Wire.write(NUMBER_FONT[a]);
+  Wire.endTransmission();
+}
+
 
 
 void EDU101::number(unsigned int n) {

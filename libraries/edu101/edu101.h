@@ -16,6 +16,8 @@ class EDU101
     EDU101();
     static void set4(uint8_t a,uint8_t b,uint8_t c,uint8_t d);
     static void num4(uint8_t a,uint8_t b,uint8_t c,uint8_t d);
+    static void set(uint8_t a,uint8_t pos);
+    static void num(uint8_t a,uint8_t pos);
     static void number(unsigned int n);
 
   private:

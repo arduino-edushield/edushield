@@ -1,5 +1,5 @@
 #######################################
-# Syntax Coloring Map For DS1307RTC
+# Syntax Coloring Map For Edushield101
 #######################################
 
 #######################################
@@ -9,15 +9,15 @@
 #######################################
 # Methods and Functions (KEYWORD2)
 #######################################
-get	KEYWORD2
+num	KEYWORD2
 set	KEYWORD2
-read	KEYWORD2
-write	KEYWORD2
-chipPresent	KEYWORD2
+num4	KEYWORD2
+set4	KEYWORD2
+number	KEYWORD2
 #######################################
 # Instances (KEYWORD2)
 #######################################
-RTC	KEYWORD2
+Display	KEYWORD2
 #######################################
 # Constants (LITERAL1)
 #######################################
