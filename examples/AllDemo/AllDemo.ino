@@ -1,3 +1,5 @@
+#include <Wire.h>
+
 #include <edu101.h>
 
 int RED = A2;
