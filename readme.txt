@@ -1,7 +1,3 @@
-Readme file for DS1307RTC Library
+Arduino101.cz edushield
 
-The DS1307RTC library is provided to demonstrate the Arduino Time library.
-
-See the TimeRTC example sketches privided with the Time library download for usage
-
-
+Demos, display library and ATtiny2313 firmware
