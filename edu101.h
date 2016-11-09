@@ -3,6 +3,9 @@
  * This library is intended to be uses with Arduino Time.h library functions
  */
 
+#include <Arduino.h>
+#include <Wire.h>
+
 #ifndef EDU101_h
 #define EDU101_h
 
