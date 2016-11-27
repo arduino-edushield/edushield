@@ -1,19 +1,19 @@
-#include <TinyWireS.h>
-
-/*
-  Blink
-  Turns on an LED on for one second, then off for one second, repeatedly.
-
-  Most Arduinos have an on-board LED you can control. On the Uno and
-  Leonardo, it is attached to digital pin 13. If you're unsure what
-  pin the on-board LED is connected to on your Arduino model, check
-  the documentation at http://www.arduino.cc
-
-  This example code is in the public domain.
-
-  modified 8 May 2014
-  by Scott Fitzgerald
+/**
+ *
+ * EduShield LED Firmware version 3
+ *
+ * It works as I2C slave at address 0x27
+ *
+ * Use provided libraries and hardware folders
+ *
+ * Compile for ATtiny2313 @ 1MHz
+ *
+ * Use Arduino as ISP
+ *
+ * 
  */
+
+#include <TinyWireS.h>
 
 #define PIN_D0  ( 0)
 #define PIN_D1  ( 1)
@@ -52,7 +52,6 @@
 
 uint8_t display[4] = {0x79,0x5e,0x1c,0x6d}; //0x9e
 
-// 01111001
 
 // global buffer to store data sent from the master.
 uint8_t master_data[16];
@@ -88,22 +87,6 @@ void requestEvent()
   for (i = 0; i < master_bytes; i++)
     master_data[i] += 0x5a;
 
-  // corrupt length of the request, but dont' make it zero
-  
-  // if the usiTwiSlave.c is working fine, then this number is completely irrelevant
-  // because the requestEvent() callback will not be called again until
-  // after the next receiveEvent() callback, so the master_data and
-  // master_bytes variables will be set by that call.
-
-  // If the usiTwiSlave.c has the issue of calling the requestFrom() callback
-  // for each byte sent, the buffer will accumulate by this amount *for each byte
-  // in the original request*.
-  // 
-  // Making it zero will obscure the 1-byte send issue in the usiTwiSlave.c
-  // that is being tested.
-  // Making it small will allow a few requests to succeed before the tx buffer
-  // overflows and the usiTwiSlave.c hangs on the "while ( tmphead == txTail );"
-  // line
   master_bytes = 2; 
 }
 
