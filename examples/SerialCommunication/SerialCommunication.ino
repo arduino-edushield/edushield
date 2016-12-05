@@ -4,7 +4,7 @@ void setup() {
   Serial.begin(9600);
   pinMode(GREEN,OUTPUT);
   digitalWrite(GREEN, LOW);
-  Serial.println("Send 0 or 1 control LED");
+  Serial.println("Send 0 or 1 to control LED");
 }
 
 void loop() {
