@@ -1,5 +1,5 @@
 /*
- * DISPLAYRTC.h - library for DISPLAY RTC
+ * library for ATtiny2313 display
 */  
 
 #include <Arduino.h>

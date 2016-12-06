@@ -1,6 +1,5 @@
 /*
- * EDU101.h - library for DS1307 RTC
- * This library is intended to be uses with Arduino Time.h library functions
+ * EDU101.h - library for ATtiny2313 display
  */
 
 #include <Arduino.h>
