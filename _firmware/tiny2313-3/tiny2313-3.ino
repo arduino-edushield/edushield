@@ -50,7 +50,7 @@
 
 #define WAIT 2
 
-uint8_t display[4] = {0x79,0x5e,0x1c,0x6d}; //0x9e
+uint8_t display[4] = {128,128,128,128}; //0x9e
 
 
 // global buffer to store data sent from the master.
