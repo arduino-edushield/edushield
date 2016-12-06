@@ -5,17 +5,17 @@
 #include <Arduino.h>
 #include <Wire.h>
 
-#ifndef EDU101_h
-#define EDU101_h
+#ifndef EduShield_h
+#define EduShield_h
 
 #define DISPLAY_CTRL_ID 0x27
 
 // library interface description
-class EDU101
+class EduShield
 {
   // user-accessible "public" interface
   public:
-    EDU101();
+    EduShield();
     static void set4(uint8_t a,uint8_t b,uint8_t c,uint8_t d);
     static void num4(uint8_t a,uint8_t b,uint8_t c,uint8_t d);
     static void set(uint8_t a,uint8_t pos);
@@ -27,7 +27,7 @@ class EDU101
 };
 
 
-extern EDU101 Display;
+extern EduShield Display;
 
 #endif
  

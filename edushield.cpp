@@ -4,9 +4,9 @@
 
 #include <Arduino.h>
 #include <Wire.h>
-#include "EDU101.h"
+#include "edushield.h"
 
-EDU101::EDU101()
+EduShield::EduShield()
 {
   Wire.begin();
 }
@@ -32,7 +32,7 @@ const uint8_t NUMBER_FONT[] = {
 
   
 // PUBLIC FUNCTIONS
-void EDU101::set4(uint8_t a,uint8_t b,uint8_t c,uint8_t d) {
+void EduShield::set4(uint8_t a,uint8_t b,uint8_t c,uint8_t d) {
   Wire.beginTransmission(DISPLAY_CTRL_ID);
   Wire.write((uint8_t)0x00);
   Wire.write(a);
@@ -51,7 +51,7 @@ void EDU101::set4(uint8_t a,uint8_t b,uint8_t c,uint8_t d) {
   Wire.endTransmission();
 }
 
-void EDU101::set(uint8_t a,uint8_t pos) {
+void EduShield::set(uint8_t a,uint8_t pos) {
   Wire.beginTransmission(DISPLAY_CTRL_ID);
   Wire.write(pos);
   Wire.write(a);
@@ -59,7 +59,7 @@ void EDU101::set(uint8_t a,uint8_t pos) {
 }
 
 
-void EDU101::num4(uint8_t a,uint8_t b,uint8_t c,uint8_t d) {
+void EduShield::num4(uint8_t a,uint8_t b,uint8_t c,uint8_t d) {
   Wire.beginTransmission(DISPLAY_CTRL_ID);
   Wire.write((uint8_t)0x00);
   Wire.write(NUMBER_FONT[a]);
@@ -78,7 +78,7 @@ void EDU101::num4(uint8_t a,uint8_t b,uint8_t c,uint8_t d) {
   Wire.endTransmission();
 }
 
-void EDU101::num(uint8_t a,uint8_t pos) {
+void EduShield::num(uint8_t a,uint8_t pos) {
   Wire.beginTransmission(DISPLAY_CTRL_ID);
   Wire.write(pos);
   Wire.write(NUMBER_FONT[a]);
@@ -87,9 +87,9 @@ void EDU101::num(uint8_t a,uint8_t pos) {
 
 
 
-void EDU101::number(unsigned int n) {
+void EduShield::number(unsigned int n) {
   unsigned int d;
-  if (n>9999) {EDU101::set4(0x80,0x80,0x80,0x80); return;}
+  if (n>9999) {EduShield::set4(0x80,0x80,0x80,0x80); return;}
 
   d = n / 1000;
   n = n % 1000;
@@ -122,4 +122,4 @@ void EDU101::number(unsigned int n) {
 
 // PRIVATE FUNCTIONS
 
-EDU101 Display = EDU101(); // create an instance for the user
+EduShield Display = EduShield(); // create an instance for the user

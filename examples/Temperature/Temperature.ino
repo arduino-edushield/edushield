@@ -2,7 +2,7 @@ int RED = A2;
 int YELLOW = A3;
 int GREEN = 13;
 
-#include <edu101.h>
+#include <edushield.h>
 
 void setup() {
   Serial.begin(9600);
