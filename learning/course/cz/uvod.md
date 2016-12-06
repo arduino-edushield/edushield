@@ -37,6 +37,10 @@ EduShield byl navržen na základě zkušeností s kurzy základů elektroniky, 
     -  Arduino Cheat Sheet https://github.com/liffiton/Arduino-Cheat-Sheet 
     -  EduShield Cheat Sheet.docx
 
+### Příprava knihovny
+
+  Obsah ZIPu nahrát do podadresáře Libraries. Tím se příklady objeví v "Příkladech z knihoven"
+
 ###	Instalace ovladačů
   Podle operačního systému a použité desky se může instalace ovladačů lišit. Systém musí desku Arduino rozpoznat jako sériový port. Pro převod USB na sériový port se používají dva typy čipů.
 
