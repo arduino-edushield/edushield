@@ -13,6 +13,7 @@
 1. [Měření světla](lightscale.md)
 1. [Teploměr](temperature.md)
 1. [Hodiny reálného času](rtc.md)
+1. [Práce s přerušením](interrupt.md)
 
 ## Pro pokročilé
 1. [Sledování teploty v lednici](fridge.md)

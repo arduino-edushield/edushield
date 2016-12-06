@@ -35,3 +35,9 @@
   - Referenční napětí je 5 V, převodník je 10-bit, tedy 0-1023.
   - Díky napěťovému děliči určité hranice nemusejí mít vliv. Citlivost obecně závisí na použitém rezistoru připojeného na zem.
   - Je třeba najít mez citlivosti.
+
+  ## Prerekvizity
+
+  1. [Sériová komunikace](serial.md)
+  1. [Displej](displej.md)
+  1. [Blikání LED](blink.md)
