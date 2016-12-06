@@ -12,7 +12,7 @@ EduShield byl navržen na základě zkušeností s kurzy základů elektroniky, 
   - Fakultativní: znalost fyzikálních principů elektřiny (napětí, proud, funkce el. obvodů)
 3	Příprava pro studenty
   - Instalace IDE. Arduino IDE je dostupné pro Linux, Mac a Windows [http://www.arduino.cc/en/Main/Software]. 
-  - [Zdrojové kódy ukázkových aplikací](https://github.com/maly/edushield/) Stačí vybrat Download ZIP. Součástí balíku jsou i knihovny pro použité rozšíření.
+  - [Zdrojové kódy ukázkových aplikací](https://github.com/maly/edushield/releases) Stačí vybrat Download ZIP. Součástí balíku jsou i knihovny pro použité rozšíření.
   - Schéma shieldu a datasheet pro použité obvody
 
 ## Příprava pro lektora
@@ -24,7 +24,7 @@ EduShield byl navržen na základě zkušeností s kurzy základů elektroniky, 
 ###	Než začne seminář
   - Poslat studentům odkaz, co si mají stáhnout a nainstalovat
     -  https://www.arduino.cc/en/Main/Software 
-    -  https://bitbucket.org/maly/edushield/src
+    -  https://github.com/maly/edushield/releases
   - Připravený hardware
     -  Arduino Uno nebo klon. U klonů pozor na nutnost instalace ovladačů!
     -  EduShield
