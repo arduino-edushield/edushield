@@ -1,7 +1,7 @@
 #	Displej ze sedmisegmentovek
 
 ## Kód
-[hello.ino](../../../examples/hello/hello.ino)
+[hello.ino](../../../../examples/hello/hello.ino)
 
 ## Motivace a cíle
 

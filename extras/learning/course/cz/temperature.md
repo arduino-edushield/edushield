@@ -1,7 +1,7 @@
 #	Měření teploty
 
 ## Kód
-[MeasureTemperature.ino](../../../examples/MeasureTemperature/MeasureTemperature.ino)
+[MeasureTemperature.ino](../../../../examples/MeasureTemperature/MeasureTemperature.ino)
 
 ## Motivace a cíle
 

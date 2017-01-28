@@ -1,7 +1,7 @@
 #	Semafor
 
 ## Kód
-[Semafor.ino](../../../examples/semafor/semafor.ino)
+[Semafor.ino](../../../../examples/semafor/semafor.ino)
 
 ## Motivace a cíle
 

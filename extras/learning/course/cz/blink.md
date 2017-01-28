@@ -1,7 +1,7 @@
 #	Hello World!
 
 ## Kód
-[Blink.ino](../../../examples/blink/blink.ino)
+[Blink.ino](../../../../examples/blink/blink.ino)
 
 ## Motivace a cíle
 

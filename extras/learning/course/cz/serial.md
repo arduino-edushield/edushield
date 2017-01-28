@@ -1,7 +1,7 @@
 #	Sériová komunikace
 
 ## Kód
-[SerialCommunication.ino](../../../examples/SerialCommunication/SerialCommunication.ino)
+[SerialCommunication.ino](../../../../examples/SerialCommunication/SerialCommunication.ino)
 
 ## Motivace a cíle
 

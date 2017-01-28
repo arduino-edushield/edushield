@@ -1,7 +1,7 @@
 #	Měření intenzity světla
 
 ## Kód
-[LightScale.ino](../../../examples/LightScale/LightScale.ino)
+[LightScale.ino](../../../../examples/LightScale/LightScale.ino)
 
 ## Motivace a cíle
 
