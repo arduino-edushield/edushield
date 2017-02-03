@@ -39,7 +39,9 @@ EduShield byl navržen na základě zkušeností s kurzy základů elektroniky, 
 
 ### Příprava knihovny
 
-  Obsah ZIPu nahrát do podadresáře Libraries. Tím se příklady objeví v "Příkladech z knihoven"
+  Ve Správci knihoven najít "EduShield" a nainstalovat.
+
+  *Alternativně: Obsah ZIPu nahrát do podadresáře Libraries. Tím se příklady objeví v "Příkladech z knihoven"*
 
 ###	Instalace ovladačů
   Podle operačního systému a použité desky se může instalace ovladačů lišit. Systém musí desku Arduino rozpoznat jako sériový port. Pro převod USB na sériový port se používají dva typy čipů.
@@ -76,9 +78,6 @@ Pokud se ovladače nenainstalují automaticky, tak je třeba ovladač nainstalov
 
 ####	Instalace nepodepsaných ovladačů
 Při instalaci ovladačů na 64-bit verze Windows může výjimečně dojít k problému s digitálním podpisem ovladače. Nové verze ovladačů pro čip FTDI jsou podepsané. Může být problém s ovladačem pro CH340, ale neměl by být. Pokud systém odmítne instalaci ovladače kvůli digitálnímu podpisu, tak postupujte podle tohoto návodu http://robodoupe.cz/wp-content/uploads/2013/04/Arduino-a-PICAXE-na-Windows-8-64.pdf 
-
-### Poznámka: Arduino.cc vs. Arduino.org
-V nedávné době došlo k rozkolu mezi zakladateli projektu Arduino (http://hackaday.com/tag/arduino-vs-arduino/). V tuto chvíli existují dvě Arduino IDE. Jedno ze stránek Arduino.cc a druhé za stránek Arduino.org. Každé má trochu jiné vlastnosti a v základu podporuje jinou sadu desek Arduino. V příkladech budeme používat Arduino IDE z Arduino.cc.
 
 # S čím budeme učit
 ##	Hardware
