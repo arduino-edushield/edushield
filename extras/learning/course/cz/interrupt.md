@@ -9,7 +9,7 @@
 Práce s přerušením patří mezi nejdůležitější znalosti programátora mikrokontrolérů. Díky přerušením můžeme vykonávat kritické operace ihned, bez čakání, než se dokončí běh jiného kódu.
 
 ## Teorie
-    - Přerušení (Wikipedia) https://cs.wikipedia.org/wiki/P%C5%99eru%C5%A1en%C3%AD
+    - [Přerušení (Wikipedia)](https://cs.wikipedia.org/wiki/P%C5%99eru%C5%A1en%C3%AD)
 
 ##	Použité funkce
     - attachInterrupt
