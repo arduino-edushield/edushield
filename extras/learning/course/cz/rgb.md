@@ -1,8 +1,8 @@
 #	RGB
 
 ## Kód
-[rgb.ino](../../../examples/rgb/rgb.ino)
-[rgb_pwm.ino](../../../examples/rgb_pwm/rgb_pwm.ino)
+[rgb.ino](../../../../examples/rgb/rgb.ino)
+[rgb_pwm.ino](../../../../examples/rgb_pwm/rgb_pwm.ino)
 
 ## Motivace a cíle
 

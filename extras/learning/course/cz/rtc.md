@@ -1,8 +1,8 @@
 #	Hodiny reálného času
 
 ## Kód
-[Clock.ino](../../../examples/Clock/Clock.ino)
-[RealTimeClock.ino](../../../examples/RealTimeClock/RealTimeClock.ino)
+[Clock.ino](../../../../examples/Clock/Clock.ino)
+[RealTimeClock.ino](../../../../examples/RealTimeClock/RealTimeClock.ino)
 
 ## Motivace a cíle
 
