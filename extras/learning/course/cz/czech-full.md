@@ -493,4 +493,3 @@ Při instalaci ovladačů na 64-bit verze Windows může výjimečně dojít k p
 ![EduShield](../../../docs/edushield.jpg)
 
 ![Schéma](../../../docs/ATtiny+display.jpg)
-
