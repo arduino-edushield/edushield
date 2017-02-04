@@ -9,7 +9,7 @@
   Ukázka praktické aplikace. Práce s RTC. Práce s knihovnami. Nahrazení knihovních funkcí low-level přístupem k zařízení. Výpis hodnot do počítače přes UART.
 
 ## Teorie
-  - Instalace knihovny pomocí správce knihoven
+  - Instalace knihovny pomocí správce knihoven, otestovaná je "RTC by Makuna"
   - Práce s katalogovým listem http://datasheets.maximintegrated.com/en/ds/DS1307.pdf 
   - BCD kódování https://cs.wikipedia.org/wiki/BCD
   - Rozhraní I2C na aplikační úrovni http://www.nxp.com/documents/user_manual/UM10204.pdf
@@ -24,11 +24,9 @@
   - Zobrazit kompletní datum a čas na sériovou konzoli.
 
 ## Pro lektora
-  - Referenční napětí je 5 V, převodník je 10-bit, tedy 0-1023.
-  - Díky napěťovému děliči určité hranice nemusejí mít vliv. Citlivost obecně závisí na použitém rezistoru připojeného na zem.
-  - Je třeba najít mez citlivosti.
+  - Knihovny hledáme podle typu (kódu) součástky ne podle výrobce
 
-  ## Prerekvizity
+## Prerekvizity
 
   1. [Sériová komunikace](serial.md)
   1. [Displej](displej.md)
