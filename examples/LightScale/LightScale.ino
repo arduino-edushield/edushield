@@ -17,8 +17,8 @@ void loop() {
   int light = analogRead(A0);
   Serial.println(light);
   
-  int scale = map(light, 200, 800, 0, 3);
-  Serial.println(scale);
+  int scale = map(light, 200, 1000, 0, 2);
+  //Serial.println(scale);
   
   if (scale==0) {
     digitalWrite(RED, HIGH);
@@ -26,13 +26,13 @@ void loop() {
     digitalWrite(RED, LOW);
   }
 
-  if (scale<2) {
+  if (scale<1) {
     digitalWrite(YELLOW, HIGH);
   } else {
     digitalWrite(YELLOW, LOW);
   }
 
-  if (scale<3) {
+  if (scale<2) {
     digitalWrite(GREEN, HIGH);
   } else {
     digitalWrite(GREEN, LOW);

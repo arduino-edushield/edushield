@@ -33,7 +33,7 @@ void loop() {
   delay(1000);
 
   Serial.println("Begin2...");
-  Display.set4(0x37,0x06,0x39,0x80);
+  Display.set4(0b00110111,0b00000110,0b00111001,0b10000000);
   Serial.println("End2...");
   delay(1000);
 
