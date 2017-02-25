@@ -28,8 +28,8 @@
 
 | Pin | Funkce   |
 | --- | --- |
-| A1  | fotorezistor |
-| A2  | termistor |
+| A0  | fotorezistor |
+| A1  | termistor |
 
 ## Funkční bloky
 
