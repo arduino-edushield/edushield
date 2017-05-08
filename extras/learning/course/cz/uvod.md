@@ -84,7 +84,7 @@ Při instalaci ovladačů na 64-bit verze Windows může výjimečně dojít k p
 ###	Arduino UNO
   Arduino je jednoduchá vývojová deska s mikrořadičem AVR společnosti ATMEL. Na této desce najdete vše potřebné pro vytváření jednoduchého hardware pro domácí automatizaci, robotiku, interaktivní instalace a mnoho dalšího.
 ### EduShield
-  EduShield je deska pro Arduino, vyvinutá speciálně pro potřeby výuky základů mikroelektroniky a práce s ní. Desku vyrání sdružení [CZ.NIC](https://nic.cz)
+  EduShield je deska pro Arduino, vyvinutá speciálně pro potřeby výuky základů mikroelektroniky a práce s ní. Desku vyrábí sdružení [CZ.NIC](https://nic.cz)
 
 ![EduShield](../../../docs/edushield.jpg)
  
