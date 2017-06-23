@@ -1,0 +1,11 @@
+Přidat do prezentace na úvod slide s programem: představení platformy, představení EduShieldu, Hello world, adresy!!!
+
+Do slajdů dát slide s typama Arduin
+
+Vzít breadboard
+
+Metodické poznámky: jak udělat vizualizér, jak udělat rámeček na Arduino
+
+příklad na millis...
+
+a/d - zmínit interní referenci 2.56V
