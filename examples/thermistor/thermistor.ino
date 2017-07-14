@@ -16,6 +16,10 @@ void setup() {
 
 #define RESISTOR_CONNECT_THERMISTOR  10000
 /*Return:int8_t,Temperature that range from -40 to 125 degrees.  */
+/* 
+  The formula is taken from https://en.wikipedia.org/wiki/Thermistor#B_or_.CE.B2_parameter_equation
+  Magic "B" is described in datasheet: http://www.meritekusa.com/web/upload/201310241633572r=SY3v.pdf
+*/
 int8_t getTemperature()
 {
   float temperature,resistance;
